@@ -20,7 +20,18 @@ Or install it yourself as:
 
 ```ruby
 require "foaas"
-Foaas::FO.new(name: "You", from: "Me").execute!
+
+# 'Eff this
+Foaas::FO.new(resource: "this", from: "slash_nick").execute!
+# => #<PayDirt::Result:0x933c10c @data={"message"=>"Fuck this.", "subtitle"=>"- slash_nick"}, @success=true>
+
+# 'Eff that
+Foaas::FO.new(resource: "that", from: "slash_nick").execute!
+# => #<PayDirt::Result:0x937c388 @data={"message"=>"Fuck that.", "subtitle"=>"- slash_nick"}, @success=true>
+
+# 'Eff off, cruel world
+Foaas::FO.new(name: "cruel%20world", from: "slash_nick").execute!
+# => #<PayDirt::Result:0x843debc @data={"message"=>"Fuck off, cruel world.", "subtitle"=>"- slash_nick"}, @success=true>
 ```
 
 ## Contributing
