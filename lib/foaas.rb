@@ -1,4 +1,5 @@
+require "pay_dirt"
+require "open-uri"
+require "json"
+require "foaas/f_o"
 require "foaas/version"
-
-module Foaas
-end

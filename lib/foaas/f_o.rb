@@ -1,44 +1,34 @@
-require 'pay_dirt'
-
-module Fooas
+module Foaas
   class FO < PayDirt::Base
     def initialize(options = {})
       options = {
         resource:     'off',
         name:         nil,
         from:         'me',
-        root_url:     'http://foaas.herokuapp.com/',
-        uri:          URI,
-        uri_method:   :parse
+        root_url:     'http://foaas.herokuapp.com',
         http_headers: {
-          accept:       "application/json",
-          content_type: "application/json"
+          "Accept"       => "application/json",
         }
-        http_subclass: Get
       }.merge(options)
 
-      options.merge! {
-        uri: options[:uri].send(options[:uri_method, [
+      options.merge!({
+        uri: [
           options[:root_url],
           options[:resource],
           options[:name],
           options[:from]
-        ].compact.join("/"))
-      }
+        ].compact.join("/")
+      })
 
-      options.delete(:uri, :uri_method, :root_url, :resource, :name, :from)
+      [:root_url, :resource, :name, :from].map do |o|
+        options.delete o
+      end
 
       load_options(:uri, :http_headers, options)
     end
 
     def execute!
-      response = Net::HTTP.start(@uri.host, @uri.port) do |http|
-        @http_headers.map { |k, v| request[k] = v }
-
-        request = Net::HTTP::Get.new("#{@url.path}?#{@url.query}")
-      end
-
-      return result(true, data: response: response)
+      return result(true, JSON.parse(open(@uri, @http_headers).read))
     end
   end
 end

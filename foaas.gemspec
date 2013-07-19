@@ -21,5 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency     "pay_dirt", "~> 1.0.7"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "pry"
+  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "minitest"
+
   spec.add_development_dependency "rake"
 end
