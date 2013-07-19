@@ -1,6 +1,6 @@
 # Foaas
 
-TODO: Write a gem description
+Ruby Interface to FOAAS ([http://foaas.herokuapp.com/](http://foaas.herokuapp.com/))
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "foaas"
+Foaas::FO.new(name: "You", from: "Me").execute!
+```
 
 ## Contributing
 
