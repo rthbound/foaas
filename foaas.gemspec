@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Foaas::VERSION
   spec.authors       = ["Ryan T. Hosford"]
   spec.email         = ["tad.hosford@gmail.com"]
-  spec.description   = %q{brb}
-  spec.summary       = %q{whoops}
+  spec.description   = %q{ Ruby interface to FOASS (http://foass.com)}
+  spec.summary       = %q{ Fun stuff }
   spec.homepage      = ""
   spec.license       = "MIT"
 
