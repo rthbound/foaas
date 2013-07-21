@@ -1,5 +1,24 @@
-require "pay_dirt"
-require "open-uri"
-require "json"
-require "foaas/f_o"
-require "foaas/version"
+require 'pay_dirt'
+require 'open-uri'
+require 'json'
+
+require_relative 'foaas/version'
+require_relative 'foaas/f_o'
+
+require_relative 'salutations'
+require_relative 'foaas/thanks'
+require_relative 'foaas/thing'
+require_relative 'foaas/chainsaw'
+require_relative 'foaas/life'
+require_relative 'foaas/pink'
+require_relative 'foaas/king'
+require_relative 'foaas/linus'
+require_relative 'foaas/shakespeare'
+require_relative 'foaas/donut'
+require_relative 'foaas/everyone'
+require_relative 'foaas/everything'
+require_relative 'foaas/that'
+require_relative 'foaas/this'
+require_relative 'foaas/you'
+require_relative 'foaas/off'
+
