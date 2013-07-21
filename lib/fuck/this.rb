@@ -1,15 +1,15 @@
 require 'pay_dirt'
 
-module FOaaS
-  class King < PayDirt::Base
+module Fuck
+  class This < PayDirt::Base
     include Salutations
 
     def initialize(options = {})
       options = {
-        resource: "king",
+        resource: "this",
       }.merge(options)
 
-      load_options(:resource, :name, :from, options)
+      load_options(:resource, :from, options)
     end
   end
 end

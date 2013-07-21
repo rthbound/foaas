@@ -1,8 +1,8 @@
 require 'minitest_helper'
 
-describe FOaaS::Pink do
+describe Fuck::This do
   before do
-    @subject = FOaaS::Pink
+    @subject = Fuck::This
     @params = {
       from: "Honey"
     }

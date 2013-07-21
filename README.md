@@ -11,97 +11,97 @@ RESTful, scalable solution to the common problem of telling people to fuck off.
 ## /off/:name/:from
 
 ```ruby
-FOaaS::Off.new(name: "You", from: "Me").execute!
+Fuck::Off.new(name: "You", from: "Me").execute!
 ```
 
 ## /you/:name/:from
 
 ```ruby
-FOaaS::You.new(name: "You", from: "Me").execute!
+Fuck::You.new(name: "You", from: "Me").execute!
 ```
 
 ## /this/:from
 
 ```ruby
-FOaaS::This.new(name: "You", from: "Me").execute!
+Fuck::This.new(name: "You", from: "Me").execute!
 ```
 
 ## /that/:from
 
 ```ruby
-FOaaS::That.new(name: "You", from: "Me").execute!
+Fuck::That.new(name: "You", from: "Me").execute!
 ```
 
 ## /everything/:from
 
 ```ruby
-FOaaS::Everything.new(name: "You", from: "Me").execute!
+Fuck::Everything.new(name: "You", from: "Me").execute!
 ```
 
 ## /everyone/:from
 
 ```ruby
-FOaaS::Everyone.new(name: "You", from: "Me").execute!
+Fuck::Everyone.new(name: "You", from: "Me").execute!
 ```
 
 ## /donut/:name/:from
 
 ```ruby
-FOaaS::Donut.new(name: "You", from: "Me").execute!
+Fuck::Donut.new(name: "You", from: "Me").execute!
 ```
 
 ## /shakespeare/:name/:from
 
 ```ruby
-FOaaS::Shakespeare.new(name: "You", from: "Me").execute!
+Fuck::Shakespeare.new(name: "You", from: "Me").execute!
 ```
 
 ## /linus/:name/:from
 
 ```ruby
-FOaaS::Linus.new(name: "You", from: "Me").execute!
+Fuck::Linus.new(name: "You", from: "Me").execute!
 ```
 
 ## /king/:name/:from
 
 ```ruby
-FOaaS::King.new(name: "You", from: "Me").execute!
+Fuck::King.new(name: "You", from: "Me").execute!
 ```
 
 ## /pink/:from
 
 ```ruby
-FOaaS::Pink.new(name: "You", from: "Me").execute!
+Fuck::Pink.new(name: "You", from: "Me").execute!
 ```
 
 ## /life/:from
 
 ```ruby
-FOaaS::Life.new(name: "You", from: "Me").execute!
+Fuck::Life.new(name: "You", from: "Me").execute!
 ```
 
 ## /chainsaw/:name/:from
 
 ```ruby
-FOaaS::Chainsaw.new(name: "You", from: "Me").execute!
+Fuck::Chainsaw.new(name: "You", from: "Me").execute!
 ```
 
 ## /outside/:name/:from
 
 ```ruby
-FOaaS::Outside.new(name: "You", from: "Me").execute!
+Fuck::Outside.new(name: "You", from: "Me").execute!
 ```
 
 ## /:thing/:from
 
 ```ruby
-FOaaS::Thing.new(name: "You", from: "Me").execute!
+Fuck::Thing.new(name: "You", from: "Me").execute!
 ```
 
 ## /thanks/:from
 
 ```ruby
-FOaaS::Thanks.new(from: "Me").execute!
+Fuck::Thanks.new(from: "Me").execute!
 ```
 
 # Contributing

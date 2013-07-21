@@ -1,9 +1,10 @@
 require 'minitest_helper'
 
-describe FOaaS::That do
+describe Fuck::Linus do
   before do
-    @subject = FOaaS::That
+    @subject = Fuck::Linus
     @params = {
+      name: "Sweetheart",
       from: "Honey"
     }
   end
@@ -14,6 +15,7 @@ describe FOaaS::That do
     end
 
     it "errors when initialized without required dependencies" do
+      -> { @subject.new(@params.reject { |k| k.to_s == 'name' }) }.must_raise RuntimeError
       -> { @subject.new(@params.reject { |k| k.to_s == 'from' }) }.must_raise RuntimeError
     end
   end

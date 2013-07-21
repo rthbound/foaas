@@ -1,12 +1,12 @@
 require 'pay_dirt'
 
-module FOaaS
-  class Life < PayDirt::Base
+module Fuck
+  class Pink < PayDirt::Base
     include Salutations
 
     def initialize(options = {})
       options = {
-        resource: "life",
+        resource: "pink",
       }.merge(options)
 
       load_options(:resource, :from, options)
