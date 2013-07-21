@@ -1,4 +1,4 @@
-module Foaas
+module FOaaS
   class FO < PayDirt::Base
     def initialize(options = {})
       options = {

@@ -5,7 +5,7 @@ require 'foaas/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "foaas"
-  spec.version       = Foaas::VERSION
+  spec.version       = FOaaS::VERSION
   spec.authors       = ["Ryan T. Hosford"]
   spec.email         = ["tad.hosford@gmail.com"]
   spec.description   = %q{brb}
