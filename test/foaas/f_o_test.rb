@@ -1,8 +1,8 @@
 require "minitest_helper"
 
-describe Foaas::FO do
+describe FOaaS::FO do
   before do
-    @subject = Foaas::FO
+    @subject = FOaaS::FO
     @from = SecureRandom.hex
     @name = SecureRandom.hex
   end
