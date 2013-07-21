@@ -1,5 +1,4 @@
-# FOaaS
-
+# FOaaS [![Build Status](https://travis-ci.org/rthbound/foaas.png?branch=master)](https://travis-ci.org/rthbound/foaas) [![Coverage Status](https://coveralls.io/repos/rthbound/foaas/badge.png)](https://coveralls.io/r/rthbound/foaas) [![Code Climate](https://codeclimate.com/github/rthbound/foaas.png)](https://codeclimate.com/github/rthbound/foaas)
 Ruby Interface to FOAAS ([http://foaas.herokuapp.com/](http://foaas.herokuapp.com/))
 
 ## What is FOAAS?
