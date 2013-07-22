@@ -23,25 +23,25 @@ Fuck::You.new(name: "You", from: "Me").execute!
 ## /this/:from
 
 ```ruby
-Fuck::This.new(name: "You", from: "Me").execute!
+Fuck::This.new(from: "Me").execute!
 ```
 
 ## /that/:from
 
 ```ruby
-Fuck::That.new(name: "You", from: "Me").execute!
+Fuck::That.new(from: "Me").execute!
 ```
 
 ## /everything/:from
 
 ```ruby
-Fuck::Everything.new(name: "You", from: "Me").execute!
+Fuck::Everything.new(from: "Me").execute!
 ```
 
 ## /everyone/:from
 
 ```ruby
-Fuck::Everyone.new(name: "You", from: "Me").execute!
+Fuck::Everyone.new(from: "Me").execute!
 ```
 
 ## /donut/:name/:from
@@ -71,13 +71,13 @@ Fuck::King.new(name: "You", from: "Me").execute!
 ## /pink/:from
 
 ```ruby
-Fuck::Pink.new(name: "You", from: "Me").execute!
+Fuck::Pink.new(from: "Me").execute!
 ```
 
 ## /life/:from
 
 ```ruby
-Fuck::Life.new(name: "You", from: "Me").execute!
+Fuck::Life.new(from: "Me").execute!
 ```
 
 ## /chainsaw/:name/:from
@@ -95,7 +95,7 @@ Fuck::Outside.new(name: "You", from: "Me").execute!
 ## /:thing/:from
 
 ```ruby
-Fuck::Thing.new(name: "You", from: "Me").execute!
+Fuck::Thing.new(resource: "thing", from: "Me").execute!
 ```
 
 ## /thanks/:from
