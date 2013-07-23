@@ -4,7 +4,7 @@ describe Fuck::Pink do
   before do
     @subject = Fuck::Pink
     @params = {
-      from: "Honey"
+      from: SecureRandom.hex,
     }
   end
 

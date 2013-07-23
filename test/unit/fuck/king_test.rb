@@ -4,8 +4,8 @@ describe Fuck::King do
   before do
     @subject = Fuck::King
     @params = {
-      name: "Sweetheart",
-      from: "Honey"
+      name: SecureRandom.hex,
+      from: SecureRandom.hex,
     }
   end
 

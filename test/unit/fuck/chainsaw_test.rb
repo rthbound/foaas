@@ -4,8 +4,8 @@ describe Fuck::Chainsaw do
   before do
     @subject = Fuck::Chainsaw
     @params = {
-      name: "Sweetheart",
-      from: "Honey"
+      name: SecureRandom.hex,
+      from: SecureRandom.hex,
     }
   end
 

@@ -4,7 +4,8 @@ describe Fuck::Thing do
   before do
     @subject = Fuck::Thing
     @params = {
-      from: "Honey"
+      from: SecureRandom.hex,
+      resource: "Something"
     }
   end
 

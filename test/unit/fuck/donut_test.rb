@@ -4,8 +4,8 @@ describe Fuck::Donut do
   before do
     @subject = Fuck::Donut
     @params = {
-      name: "Sweetheart",
-      from: "Honey"
+      name: SecureRandom.hex,
+      from: SecureRandom.hex,
     }
   end
 

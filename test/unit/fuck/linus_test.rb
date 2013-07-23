@@ -4,8 +4,8 @@ describe Fuck::Linus do
   before do
     @subject = Fuck::Linus
     @params = {
-      name: "Sweetheart",
-      from: "Honey"
+      name: SecureRandom.hex,
+      from: SecureRandom.hex,
     }
   end
 

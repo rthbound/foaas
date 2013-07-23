@@ -4,8 +4,8 @@ describe Fuck::Shakespeare do
   before do
     @subject = Fuck::Shakespeare
     @params = {
-      name: "Sweetheart",
-      from: "Honey"
+      name: SecureRandom.hex,
+      from: SecureRandom.hex,
     }
   end
 
