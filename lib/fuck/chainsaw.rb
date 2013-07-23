@@ -1,5 +1,3 @@
-require 'pay_dirt'
-
 module Fuck
   class Chainsaw < PayDirt::Base
     include Salutations

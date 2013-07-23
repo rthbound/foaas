@@ -1,5 +1,3 @@
-require 'pay_dirt'
-
 module Fuck
   class Everything < PayDirt::Base
     include Salutations

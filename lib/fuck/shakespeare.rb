@@ -1,5 +1,3 @@
-require 'pay_dirt'
-
 module Fuck
   class Shakespeare < PayDirt::Base
     include Salutations
