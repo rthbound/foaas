@@ -1,5 +1,5 @@
 module Fuck
-  class Linus < PayDirt::Base
+  class Linus
     include Salutations
 
     def initialize(options = {})

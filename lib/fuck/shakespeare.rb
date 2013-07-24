@@ -1,5 +1,5 @@
 module Fuck
-  class Shakespeare < PayDirt::Base
+  class Shakespeare
     include Salutations
 
     def initialize(options = {})

@@ -1,5 +1,5 @@
 module Fuck
-  class Thanks < PayDirt::Base
+  class Thanks
     include Salutations
 
     def initialize(options = {})

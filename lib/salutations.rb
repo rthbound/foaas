@@ -1,7 +1,11 @@
 module Salutations
+  include PayDirt::UseCase
+
   def self.included(base)
-    def execute!
+    def call
       FOaaS::FO.new(resource: @resource, from: @from, name: @name).execute!
     end
+
+    alias_method :execute!, :call
   end
 end

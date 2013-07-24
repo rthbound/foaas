@@ -1,5 +1,5 @@
 module Fuck
-  class Life < PayDirt::Base
+  class Life
     include Salutations
 
     def initialize(options = {})

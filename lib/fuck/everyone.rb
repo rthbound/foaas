@@ -1,5 +1,5 @@
 module Fuck
-  class Everyone < PayDirt::Base
+  class Everyone
     include Salutations
 
     def initialize(options = {})

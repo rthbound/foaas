@@ -1,5 +1,5 @@
 module Fuck
-  class Off < PayDirt::Base
+  class Off
     include Salutations
 
     def initialize(options = {})

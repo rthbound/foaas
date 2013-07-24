@@ -1,5 +1,5 @@
 module Fuck
-  class King < PayDirt::Base
+  class King
     include Salutations
 
     def initialize(options = {})

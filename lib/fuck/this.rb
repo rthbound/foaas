@@ -1,5 +1,5 @@
 module Fuck
-  class This < PayDirt::Base
+  class This
     include Salutations
 
     def initialize(options = {})

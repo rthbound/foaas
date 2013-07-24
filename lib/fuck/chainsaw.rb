@@ -1,5 +1,5 @@
 module Fuck
-  class Chainsaw < PayDirt::Base
+  class Chainsaw
     include Salutations
 
     def initialize(options = {})

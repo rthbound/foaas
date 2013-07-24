@@ -1,5 +1,5 @@
 module Fuck
-  class Pink < PayDirt::Base
+  class Pink
     include Salutations
 
     def initialize(options = {})

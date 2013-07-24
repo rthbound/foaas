@@ -1,5 +1,5 @@
 module Fuck
-  class Donut < PayDirt::Base
+  class Donut
     include Salutations
 
     def initialize(options = {})
