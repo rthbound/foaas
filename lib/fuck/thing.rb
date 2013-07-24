@@ -4,10 +4,10 @@ module Fuck
 
     def initialize(options = {})
       options = {
-        resource: "thing",
+        resource: options[:thing],
       }.merge(options)
 
-      load_options(:resource, :from, options)
+      load_options(:thing, :from, options)
     end
   end
 end

@@ -4,8 +4,8 @@ describe Fuck::Thing do
   before do
     @subject = Fuck::Thing
     @params = {
-      from: SecureRandom.hex,
-      resource: "Something"
+      from:  SecureRandom.hex,
+      thing: SecureRandom.hex
     }
   end
 
@@ -16,6 +16,7 @@ describe Fuck::Thing do
 
     it "errors when initialized without required dependencies" do
       -> { @subject.new(@params.reject { |k| k.to_s == 'from' }) }.must_raise RuntimeError
+      -> { @subject.new(@params.reject { |k| k.to_s == 'thing' }) }.must_raise RuntimeError
     end
   end
 
