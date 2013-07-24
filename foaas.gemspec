@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = FOaaS::VERSION
   spec.authors       = ["Ryan T. Hosford"]
   spec.email         = ["tad.hosford@gmail.com"]
-  spec.description   = %q{ Ruby interface to FOASS (http://foass.com)}
-  spec.summary       = %q{ Fun stuff }
-  spec.homepage      = ""
+  spec.description   = %q{ Ruby interface to FOaaS - http://foaas.com }
+  spec.summary       = %q{ Fun stuff. }
+  spec.homepage      = "http://github.com/rthbound/foaas"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -21,9 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency     "pay_dirt", "~> 1.0.7"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "pry"
-  spec.add_development_dependency "simplecov"
   spec.add_development_dependency "coveralls"
+  #spec.add_development_dependency "simplecov"
   spec.add_development_dependency "minitest"
-
   spec.add_development_dependency "rake"
 end
