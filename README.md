@@ -95,7 +95,7 @@ Fuck::Outside.new(name: "You", from: "Me").call
 ## /:thing/:from
 
 ```ruby
-Fuck::Thing.new(resource: "thing", from: "Me").call
+Fuck::Thing.new(thing: "Anything", from: "Me").call
 ```
 
 ## /thanks/:from
