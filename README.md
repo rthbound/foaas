@@ -11,97 +11,97 @@ RESTful, scalable solution to the common problem of telling people to fuck off.
 ## /off/:name/:from
 
 ```ruby
-Fuck::Off.new(name: "You", from: "Me").execute!
+Fuck::Off.new(name: "You", from: "Me").call
 ```
 
 ## /you/:name/:from
 
 ```ruby
-Fuck::You.new(name: "You", from: "Me").execute!
+Fuck::You.new(name: "You", from: "Me").call
 ```
 
 ## /this/:from
 
 ```ruby
-Fuck::This.new(from: "Me").execute!
+Fuck::This.new(from: "Me").call
 ```
 
 ## /that/:from
 
 ```ruby
-Fuck::That.new(from: "Me").execute!
+Fuck::That.new(from: "Me").call
 ```
 
 ## /everything/:from
 
 ```ruby
-Fuck::Everything.new(from: "Me").execute!
+Fuck::Everything.new(from: "Me").call
 ```
 
 ## /everyone/:from
 
 ```ruby
-Fuck::Everyone.new(from: "Me").execute!
+Fuck::Everyone.new(from: "Me").call
 ```
 
 ## /donut/:name/:from
 
 ```ruby
-Fuck::Donut.new(name: "You", from: "Me").execute!
+Fuck::Donut.new(name: "You", from: "Me").call
 ```
 
 ## /shakespeare/:name/:from
 
 ```ruby
-Fuck::Shakespeare.new(name: "You", from: "Me").execute!
+Fuck::Shakespeare.new(name: "You", from: "Me").call
 ```
 
 ## /linus/:name/:from
 
 ```ruby
-Fuck::Linus.new(name: "You", from: "Me").execute!
+Fuck::Linus.new(name: "You", from: "Me").call
 ```
 
 ## /king/:name/:from
 
 ```ruby
-Fuck::King.new(name: "You", from: "Me").execute!
+Fuck::King.new(name: "You", from: "Me").call
 ```
 
 ## /pink/:from
 
 ```ruby
-Fuck::Pink.new(from: "Me").execute!
+Fuck::Pink.new(from: "Me").call
 ```
 
 ## /life/:from
 
 ```ruby
-Fuck::Life.new(from: "Me").execute!
+Fuck::Life.new(from: "Me").call
 ```
 
 ## /chainsaw/:name/:from
 
 ```ruby
-Fuck::Chainsaw.new(name: "You", from: "Me").execute!
+Fuck::Chainsaw.new(name: "You", from: "Me").call
 ```
 
 ## /outside/:name/:from
 
 ```ruby
-Fuck::Outside.new(name: "You", from: "Me").execute!
+Fuck::Outside.new(name: "You", from: "Me").call
 ```
 
 ## /:thing/:from
 
 ```ruby
-Fuck::Thing.new(resource: "thing", from: "Me").execute!
+Fuck::Thing.new(resource: "thing", from: "Me").call
 ```
 
 ## /thanks/:from
 
 ```ruby
-Fuck::Thanks.new(from: "Me").execute!
+Fuck::Thanks.new(from: "Me").call
 ```
 
 # Contributing
