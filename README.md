@@ -86,12 +86,6 @@ Fuck::Life.new(from: "Me").call
 Fuck::Chainsaw.new(name: "You", from: "Me").call
 ```
 
-## /outside/:name/:from
-
-```ruby
-Fuck::Outside.new(name: "You", from: "Me").call
-```
-
 ## /:thing/:from
 
 ```ruby
@@ -102,6 +96,20 @@ Fuck::Thing.new(thing: "Anything", from: "Me").call
 
 ```ruby
 Fuck::Thanks.new(from: "Me").call
+```
+
+# TODO
+
+## /outside/:name/:from
+
+Intended:
+```ruby
+Fuck::Outside.new(name: "You", from: "Me").call
+```
+
+Current:
+```ruby
+FOaaS::FO.new(resource: "outside", name: "You", from: "Me").call
 ```
 
 # Contributing

@@ -7,6 +7,10 @@ module Fuck
     # @option options [String] :from
     # @example
     #   Fuck::Thing.new(thing: "Cassowaries", from: "Me").call
+    #     => #<PayDirt::Result:0x92db334 @data= {
+    #           "message"=>"Fuck Anything.",
+    #           "subtitle"=>"- Me"
+    #         }, @success=true>
     def initialize(options = {})
       options = {
         resource: options[:thing],
