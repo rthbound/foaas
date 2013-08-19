@@ -98,18 +98,22 @@ Fuck::Thing.new(thing: "Anything", from: "Me").call
 Fuck::Thanks.new(from: "Me").call
 ```
 
-# TODO
+## /flying/:from
+
+```ruby
+Fuck::Flying.new(from: "Me").call
+```
+
+## /fascinating/:from
+
+```ruby
+Fuck::Fascinating.new(from: "Me").call
+```
 
 ## /outside/:name/:from
 
-Intended:
 ```ruby
 Fuck::Outside.new(name: "You", from: "Me").call
-```
-
-Current:
-```ruby
-FOaaS::FO.new(resource: "outside", name: "You", from: "Me").call
 ```
 
 # Contributing
